@@ -1,5 +1,4 @@
 import Express  from 'express';
-import jwt from 'jsonwebtoken';
 import {User} from '../types/User.js';
 import { newUser, getAllUsers, getUser, deleteUser, updateUser } from '../controllers/userControllers.js';
 import { validateNumericParams } from '../middlewares/validateNumericParams.js';
